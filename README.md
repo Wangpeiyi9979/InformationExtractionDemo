@@ -38,13 +38,15 @@ pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp36-cp36m-linux
 pip3 intall flask
 ```
 - 下载训练好的模型
-    - 下载[预训练模型]()
-    - 创建目录
-    ```
-    cd utils
-    mkdir checkpoints
-    *mv ../ckpt checkpoints/(将下载的ckpt放入checkpoins下)
-    ```
+    - 下载[bert预训练参数](https://pan.baidu.com/s/1rWjReg82akD3w6Cfyqo2XA), 提取码:lizu 
+        - 将下载的文件放入`uitls/bert-base-chinese/`目录下
+    - 下载[预训练模型](https://pan.baidu.com/s/1HEG6yVHsvL103QzNZRhzEg), 提取码:40jh
+        - 创建目录
+        ```
+        cd utils
+        mkdir checkpoints
+        *mv ../ckpt checkpoints/(将下载的ckpt放入checkpoins下)
+        ```
 - 切换到主目录，运行flask
 ```
 python app.py
