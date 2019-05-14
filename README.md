@@ -1,3 +1,6 @@
+# 效果图片
+![效果截图](./example.png)
+
 # 所需环境
 - Ubuntu 16.04
 - Python 3.6
